@@ -17,5 +17,12 @@
     "mysql": "^2.18.1",
     "puppeteer": "^23.7.0"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
 }
