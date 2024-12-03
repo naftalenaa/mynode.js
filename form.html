@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter category details in the fields, then click "Submit" to submit the form:</p>
+
+<form id="frm1" action="http://localhost:3000/categories" method="POST">
+    Category ID: <input type="number" name="category_id"><br>
+    Category Name: <input type="text" name="category_name" maxlength="50"><br>
+    Description: <input type="text" name="description" maxlength="100"><br><br>
+    <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+
+</body>
+</html>
