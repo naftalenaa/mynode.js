@@ -15,14 +15,15 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "mysql": "^2.18.1",
-    "puppeteer": "^23.7.0"
+    "puppeteer": "^23.7.0",
+    "react-scripts": "^5.0.1"
   },
-  "description": "",
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/typography": "^0.5.15",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15"
-  }
+  },
+  "description": ""
 }
